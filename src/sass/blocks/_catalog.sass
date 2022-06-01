@@ -1,0 +1,155 @@
+.catalog
+    padding-bottom: 79px
+    &__tabs
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-top: 70px
+        list-style-type: none
+        margin-bottom: 0
+        padding-left: 0
+    &__tab
+        font-weight: 400
+        font-size: 18px
+        text-align: center
+        text-transform: uppercase
+        color: #6B6B6B
+        width: 222px
+        height: 52px
+        background: rgba(0, 0, 0, 0.0001)
+        border: 2px solid #D0D0D0
+        line-height: 48px
+        transform: skew(-25deg)
+        margin: 0 5px
+        cursor: pointer
+        transition: 0.5s all
+        &:hover
+            box-shadow: 3px 3px 20px #C70101
+            border: none
+        div
+            transform: skew(25deg)
+        &_active
+            color: #fff
+            background-color: #C70101
+            border: none
+    &__content
+        margin-top: 60px
+        display: none
+        justify-content: space-between
+        flex-wrap: wrap
+        &_active
+            display: flex
+
+    &-item
+        position: relative
+        width: 303px
+        min-height: 442px
+        background: #FFFFFF
+        border: 2px solid #E8E8E8
+        padding: 20px 
+        overflow: hidden
+        margin-bottom: 20px
+        &__img
+            max-width: 100%
+            height: 200px
+            display: block
+            margin: 0 auto
+            margin-bottom: 15px
+        &__subtitle
+            font-weight: 700
+            font-size: 16px
+            text-align: center
+            color: #0D0D0D
+            margin-bottom: 15px
+        &__descr
+            font-weight: 300
+            font-size: 14px
+            line-height: 22px
+            text-align: center
+            color: #0D0D0D
+        &__link
+            display: block
+            margin: 0 auto
+            text-align: center
+            font-weight: 500
+            font-size: 14px
+            text-decoration-line: underline
+            color: #C70101
+            &:hover
+                color: #C70101
+        hr
+            background: #a2a2a2
+            margin-top: 17px
+            margin-bottom: 17px
+        &__footer
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &__old-price
+            font-weight: 300
+            font-size: 14px
+            text-decoration-line: line-through
+            color: #555555
+        &__price
+            font-weight: 700
+            font-size: 20px
+            color: #050505
+        &__wrapper
+            width: calc( 200% + 40px )
+            display: flex
+        &__content
+            width: 50%
+            margin-right: 0px
+            transform: translateX(-100%)
+            transition: 0.5s all
+            &_active
+                transform: translateX(0)
+                margin-right: 20px
+        &__list
+            width: 50%
+            ul
+                transform: translateX(0)
+                transition: 0.5s all
+                list-style-type: none
+                padding-right: 20px
+                padding-left: 17px
+                margin-bottom: 0
+                margin-left: 20px
+                li
+                    font-weight: 300
+                    font-size: 14px
+                    line-height: 21px
+                    color: #555555
+                    margin-bottom: 10px
+                    position: relative
+                    &::before
+                        content: ''
+                        position: absolute
+                        width: 5px
+                        height: 5px
+                        background: #C70101
+                        left: -14px
+                        top: 7px
+            &_active
+                transform: translateX(-100%)
+                margin-left: 0px
+                a
+                    position: absolute
+                    bottom: 0
+                    left: 50%
+                    transform: translateX(calc(-50% - 17px))
+                    font-weight: 500
+                    font-size: 14px
+                    text-align: center
+                    text-decoration-line: underline
+                    color: #C70101
+                    display: block
+                    text-transform: uppercase
+                    &:hover
+                        color: #C70101
+    
+
+
+          
+           
+    
