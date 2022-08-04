@@ -1,21 +1,24 @@
 "use strict";
 
-let storeName = 'statibo';
-let storeDescription = {budget: 10000, employees: ['pasha', 'slava', 'dima'], products: {cucumber: 200, potato: 300}, open: true};
+const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "");
 
-alert('Hello');
-
-const resault = confirm("Are you here&");
-
-const answer = prompt("Вам есть 18?", "");
-
-const answers = []
-
-answers[0] = prompt("Как ваше имя?", "");
-answers[1] = prompt("Как ваша фамилия?", "");
-answers[2] = prompt("Как ваше отчество?", "");
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {
+        
+    },
+    actors: {},
+    genres: [],
+    privat: false
+};
 
 
-const category = "toys";
+const a = prompt("Один из последних просмотренных фильмов?", ""),
+      b = prompt("На сколько оцените его?", ""),
+      c = prompt("Один из последних просмотренных фильмов?", ""),
+      d = prompt("На сколько оцените его?", "");
 
-console.log(`i like${category}`);
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
