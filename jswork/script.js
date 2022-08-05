@@ -80,3 +80,41 @@ switch (nas) {
         break;
 }
 // сокращенная запись условий
+
+
+
+
+// ЛОГИЧЕСКИЕ ОПЕРАТОРЫ
+
+const hamburger = true;
+const fries = true;
+
+if (hamburger && fries) {
+    console.log('сыт');
+}
+
+// оператор && останавливается возвращает первую неправду или если правдв то последнее значение(если сравниваются чила и строки)
+
+const a = 3;
+const b = 4;
+const c = 6;
+
+if (a || b || c ) {
+    console.log('ок');
+} else {
+    console.log('нет');
+}
+
+const Hamburger = 3;
+const Fries = 4;
+const Cola = 3;
+const Nagets = 5;
+
+if (Hamburger ===3 && Cola ===3 || Fries === 4 && Nagets === 5){
+    console.log('ок');
+} else {
+    console.log('нет');
+}
+
+
+
