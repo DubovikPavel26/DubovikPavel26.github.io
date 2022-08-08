@@ -168,15 +168,16 @@
 // }
 // вложенность циклов ///////////
 
-let result = '';
-const lenght = 7;
+// let result = '';
+// const lenght = 7;
 
-for (let i = 1; i < lenght; i++) {
-    for (let j = 0; j < i; j++) {
-        result += '*';
-    }
+// for (let i = 1; i < lenght; i++) {
+//     for (let j = 0; j < i; j++) {
+//         result += '*';
+//     }
 
-    result += '\n';
-}
+//     result += '\n';
+// }
 
-console.log(result);
+// console.log(result);
+// Задача на звезды //////////////////
