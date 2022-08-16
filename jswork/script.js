@@ -181,3 +181,50 @@
 
 // console.log(result);
 // Задача на звезды //////////////////
+
+
+// const arr = [3, 5, 8, 16, 20, 23, 50];
+// const result = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//     arr[i] = result[i]
+// }
+
+// ФУНКЦИИ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\\
+
+// function a() {
+//     console.log("Hello");
+// }
+// a();
+
+// function calk(a, b){
+//     return(a + b);
+// }
+
+// console.log(calk(4, 5));
+
+// function a() {
+//     console.log('hello');
+// }
+
+// a();
+// // 1 спсоб задания фунуции/////////
+
+// const a = function(){
+//     console.log('hello');
+// };
+
+// a();
+// // 2 спсоб /////////////////////////
+
+// const calk = (a, b) => a + b;
+
+for (i = 2; i < 10; i++){
+  if (i % 2 !== 0){
+    continue;
+  }
+  console.log(i);
+}
+
+
+let number =
