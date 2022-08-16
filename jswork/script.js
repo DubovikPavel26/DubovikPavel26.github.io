@@ -219,12 +219,17 @@
 
 // const calk = (a, b) => a + b;
 
-for (i = 2; i < 10; i++){
-  if (i % 2 !== 0){
-    continue;
-  }
-  console.log(i);
-}
+// for (i = 2; i < 10; i++){
+//   if (i % 2 !== 0){
+//     continue;
+//   }
+//   console.log(i);
+// }
 
-
-let number =
+// function min(a, b){
+//   if (a > b){
+//     return b
+//   } else {
+//     return a
+//   }
+// }
