@@ -1,0 +1,43 @@
+.promo
+    min-height: 100vh
+    position: relative
+    background-color: #aaddf4 
+    padding-top: 205px
+    &__title
+        width: 535px
+        margin-top: 10px
+    &__btns
+        margin-top: 25px
+        display: flex
+        width: 250px
+        align-items: center
+        justify-content: space-between
+    &__subtitle
+        @include before_circle
+        position: relative
+        z-index: 2
+        padding-left: 10px
+    &__link
+        color: #000
+        text-decoration: none
+        font-weight: bold
+        &:hover
+            color: #000
+    .hamburger
+        position: absolute
+        top: 20px
+        right: 20px
+        display: flex
+        height: 21px
+        flex-direction: column
+        justify-content: space-between
+        align-items: flex-end
+        cursor: pointer
+        span
+            display: block
+            width: 30px
+            height: 3px  
+            background: #151812
+        span.long
+            width: 36px
+    
