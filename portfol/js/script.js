@@ -23,3 +23,31 @@ const counters = document.querySelectorAll('.skills__ratings-counter'),
         lines[i].style.width = item.innerHTML;
       });
 
+
+ $(document).ready(function(){
+     $('.certificate__img').slick({
+        speed: 1000,
+        autoplay: true,
+        arrows: false,
+        autoplaySpeed: 1100,
+     });
+
+     $('form').submit(function(e){
+        e.preventDefault();
+
+    
+
+        $.ajax({
+            type: "POST",
+            url: "mailer/smart.php",
+            data: $(this).serialize()
+        }).done(function(){
+            $(this).find("input").val("");
+
+            $('form').trigger('reset');
+        });
+        return false;
+     });
+      });
+
+      
