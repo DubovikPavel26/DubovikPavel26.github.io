@@ -1,0 +1,73 @@
+.promo
+    min-height: 698px
+    padding-top: 65px
+
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+    &__img
+        width: 685px
+        height: 507px
+        position: relative
+    &__bg
+        position: absolute
+        z-index: -1
+        right: 0
+    
+    &__descr
+        width: 395px
+        margin-top: 145px
+    h1
+        font-family: 'Raleway', sans-serif
+        font-weight: 900
+        font-size: 70px
+        line-height: 70px
+        background-image: radial-gradient(100% 506.25% at 0% 0%, #F9F7FF 0%, #C9BCF1 49.22%, #8A70DA 100%)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        background-clip: text
+        text-fill-color: transparent
+        margin: 0
+    &__text
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 20px
+        line-height: 24px
+        color: #EEEEEE
+        margin-top: 30px
+    &__buttons
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 97px
+    &__btn
+        width: 203px
+        text-transform: uppercase
+    &__link
+        display: flex
+        width: 125px
+        justify-content: space-between
+        align-items: center
+    &__arrow
+        position: relative
+        &::before
+            content: ' '
+            display: block
+            width: 45px
+            height: 45px
+            border-radius: 100%
+            background: radial-gradient(100% 626.68% at 0% 0%, rgba(30, 19, 65, 0.6) 0%, rgba(57, 30, 138, 0.6) 49.19%, rgba(119, 94, 197, 0.6) 94.27%)
+            z-index: -1
+            position: absolute
+            top: -25%
+            left: 51%
+            transform: translateX(-51%)
+
+    &__gg
+        font-family: 'Lato', sans-serif
+        font-style: normal
+        font-weight: 900
+        font-size: 16px
+        line-height: 19px
+        color: #EEEEEE
